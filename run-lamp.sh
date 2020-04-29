@@ -7,6 +7,7 @@ function exportBoolean {
             export ${1}='Yes.'
     fi
 }
+VOLUME_HOME="/var/lib/mysql"
 
 exportBoolean LOG_STDOUT
 exportBoolean LOG_STDERR
